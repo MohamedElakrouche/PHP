@@ -19,6 +19,7 @@ $movies =
         ];
 
 // Boucle pour parcourir et afficher les films et leurs acteurs
+
 for ($i = 0; $i < count($movies); $i++) 
     {
     echo "Dans le film " . $movies[$i]['title'] . ", les principaux acteurs sont : ";
